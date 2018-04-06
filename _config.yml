@@ -1,1 +1,37 @@
-theme: jekyll-theme-minimal
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+include: ["_pages"]
+permalink: /:title/
+
+# Permalinks
+#permalink:        pretty
+#nbb relative_permalinks: true
+relative_permalinks: false
+
+# Setup
+title:            Nathan Brooks
+tagline:          'Roboticist'
+description:      ' '
+#url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Nathan Brooks'
+  #url:            https://twitter.com/mdo
+  github:         https://github.com/nbbrooks
+  linkedin:       https://www.linkedin.com/in/nathan-b-brooks
+
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  #repo:           https://github.com/poole/hyde
+    repo:         https://github.com/nbbrooks/nbbrooks.github.io
+
+#repository: https://github.com/nbbrooks/nbbrooks.github.io
+#github: [metadata]
