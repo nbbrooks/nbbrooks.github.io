@@ -2,24 +2,21 @@
 markdown:         kramdown
 highlighter:      rouge
 
-include: ["_pages"]
+include: ['_pages']
 permalink: /:title/
 
 # Permalinks
-#permalink:        pretty
-#nbb relative_permalinks: true
 relative_permalinks: false
 
 # Setup
 title:            Nathan Brooks
 tagline:          'Roboticist'
 description:      ' '
-#url:              http://hyde.getpoole.com
-baseurl:          /
+url:              https://nbbrooks.github.io
+baseurl:             /
 
 author:
   name:           'Nathan Brooks'
-  #url:            https://twitter.com/mdo
   github:         https://github.com/nbbrooks
   linkedin:       https://www.linkedin.com/in/nathan-b-brooks
 
